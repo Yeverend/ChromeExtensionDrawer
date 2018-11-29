@@ -1,1 +1,1 @@
-console.log("Background running...");
+console.log("Background running.");
