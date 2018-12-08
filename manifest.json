@@ -1,12 +1,14 @@
 {
   "name": "ADD BACKGROUND!",
   "description": "My task is to create canvas element, to set correct background position.",
-  "version": "2.9",
+  "version": "3",
   "manifest_version": 2,
   "icons": {
     "128": "icon.png"
   },
-  "permissions": [],
+  "permissions": [
+    "storage"
+  ],
 
   "content_scripts": [
 	  {

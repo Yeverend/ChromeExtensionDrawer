@@ -1,5 +1,7 @@
 console.log("Chrom extension work.");
 
+chrome.storage.local.set({'penState': null});
+
 var windowLocation = window.location.href;
 var fileName = "imagedata.png";
 
@@ -192,11 +194,11 @@ function gotMessage(message, sender, sendResponse){
 	console.log("I received: " + message.key);
 
 	switch(message.key){
-		case "USE_PEN": 				useCanvas(true);
+		case "USE_PEN": 		useCanvas(true);
 												console.log("USE_PEN");
 												break;
 
-		case "LEAVE_PEN": 				useCanvas(false);
+		case "LEAVE_PEN": 	useCanvas(false);
 												console.log("LEAVE_PEN");
 												break;
 
