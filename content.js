@@ -150,7 +150,7 @@ class CanvasItem{
 		this.top = parseInt(this.canvas.style["top"].replace("px", ""));
 
 		this.resize();
-		this.style = {lineWidth: 10, lineCap: "round", strokeStyle: "#ef9a76"};
+		this.style = {lineWidth: 6, lineCap: "round", strokeStyle: "#f05f71"};
 
 	}
 	resize(){
